@@ -1,0 +1,22 @@
+{
+  "name": "glh",
+  "version": "1.0.0",
+  "description": "glh api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "api",
+    "glh"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^7.1.1"
+  }
+}
