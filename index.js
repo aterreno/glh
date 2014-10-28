@@ -14,3 +14,5 @@ server.route({
 
 // Start the server
 server.start();
+
+module.exports = server;

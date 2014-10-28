@@ -4,19 +4,23 @@
   "description": "glh api",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+     "test": "make test-cov"
   },
   "repository": {
     "type": "git",
-    "url": "none"
+    "url": "git@github.com:aterreno/glh.git"
   },
   "keywords": [
     "api",
     "glh"
   ],
-  "author": "",
+  "author": "aterreno",
   "license": "ISC",
   "dependencies": {
     "hapi": "^7.1.1"
+  },
+  "devDependencies": {
+    "lab": "4.x.x",
+     "code": "1.x.x"
   }
 }
