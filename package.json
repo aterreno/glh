@@ -17,7 +17,8 @@
   },
   "devDependencies": {
     "lab": "4.x.x",
-     "code": "1.x.x"
+    "code": "1.x.x",
+    "apigeetool": "0.1.9"
   },
   "engine": "node >= 0.10.32"
 }
