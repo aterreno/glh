@@ -2,7 +2,7 @@
   "name": "glh",
   "version": "1.0.0",
   "description": "glh api",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
      "test": "make test-cov"
   },
@@ -10,10 +10,6 @@
     "type": "git",
     "url": "git@github.com:aterreno/glh.git"
   },
-  "keywords": [
-    "api",
-    "glh"
-  ],
   "author": "aterreno",
   "license": "ISC",
   "dependencies": {
