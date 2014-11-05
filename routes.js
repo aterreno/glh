@@ -1,8 +1,9 @@
-module.exports = [
-{
+var handlers = require('./handlers');
+
+module.exports = [{
     method: 'GET',
     path: '/hello',
     handler: function(request, reply) {
-        reply('hello world');
+	handlers.handleHelloWorld(request, reply);
     }
 }];

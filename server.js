@@ -1,7 +1,6 @@
 var Hapi = require('hapi');
 var routes = require('./routes');
 
-
 var config = {};
 
 // Create a server with a host and port
